@@ -1,3 +1,7 @@
+package appConfigs;
+
+import cipher.CipherType;
+
 public class AppArguments {
     private String sourcePath;
     private String destinationPath;

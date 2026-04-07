@@ -1,4 +1,6 @@
-public class StrategyCaesar implements CipherStrategy{
+package cipher;
+
+public class StrategyCaesar implements CipherStrategy {
     private final int shift;
     public StrategyCaesar(int shift){
         if(shift >=0){

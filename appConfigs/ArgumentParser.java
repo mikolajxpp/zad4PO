@@ -1,3 +1,7 @@
+package appConfigs;
+
+import cipher.CipherType;
+
 public class ArgumentParser {
     public AppArguments parse(String args[]){
         AppArguments flags = new AppArguments();
