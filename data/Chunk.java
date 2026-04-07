@@ -8,6 +8,9 @@ public class Chunk {
         dataChunk = new String(data, 0, size);
         currSize = size;
     }
+    public void setDataFromString(String data) {
+        dataChunk = data;
+    }
     public String getData() {
         return dataChunk;
     }

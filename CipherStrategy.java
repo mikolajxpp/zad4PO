@@ -1,4 +1,4 @@
 public interface CipherStrategy{
     String encode(String text);
-    String decode(Strint text);
+    String decode(String text);
 }

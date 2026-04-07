@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String args[]){
+    public static void main(String[] args){
         ArgumentParser parser = new ArgumentParser();
-        AppArguments config = parser.parser(args);
-        //dodac do maina reszte ale to jak bedzie pelny projekt i polaczymy kody ktore oboje napisalismy
+        AppArguments config = parser.parse(args);
+        // AppExecutor appExecutor = new AppExecutor()
     }
 }
