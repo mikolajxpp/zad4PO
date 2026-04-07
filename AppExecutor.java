@@ -19,7 +19,7 @@ public class AppExecutor {
 
     private void processData(Function<String, String> cipherAction) {
         Chunk entryChunk = reader.readChunk();
-        while (entryChunk.getSize() > 0) {
+        while (entryChunk != null && entryChunk.getSize() > 0) {
             Chunk writeChunk = new Chunk();
             writeChunk.setDataFromString(cipherAction.apply(entryChunk.getData()));
             entryChunk = reader.readChunk();

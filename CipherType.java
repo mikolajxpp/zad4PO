@@ -1,4 +1,4 @@
 public enum CipherType {
-    CEASAR,
+    CAESAR,
     MORSE
 }
