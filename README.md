@@ -25,9 +25,9 @@ Aby uruchomić program, należy przekazać parzystą liczbę argumentów w posta
 
 Szyfrowanie pliku z przesunięciem o 3 pozycje:
 ```bash
-java Main -source plain.txt -destination encrypted.txt -mode CIPHER -type CAESAR -shift 3
+java Main.java -source plain.txt -destination encrypted.txt -mode CIPHER -type CAESAR -shift 3
 ```
 Odszyfrowywanie wygenerowanego pliku:
 ```bash
-java Main -source encrypted.txt -destination decrypted.txt -mode DECIPHER -type CAESAR -shift 3
+java Main.java -source encrypted.txt -destination decrypted.txt -mode DECIPHER -type CAESAR -shift 3
 ```
